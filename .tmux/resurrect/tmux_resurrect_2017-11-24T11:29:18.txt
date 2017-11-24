@@ -1,0 +1,61 @@
+pane	CCLight development	1	:Application	0	:-	1	:/home/versloot	1	zsh	:
+pane	CCLight development	2	:Build	1	:*	1	:/home/versloot	1	zsh	:
+pane	CCLight development	3	:Source	0	: 	1	:/shared/Projects/ElecPrj_CCLight/src/arm/cclight	1	zsh	:
+pane	CCLight development	4	:Git	0	: 	1	:/shared/Projects/ElecPrj_CCLight	1	zsh	:
+pane	CCLight development	5	:DTS	0	: 	1	:/shared/Projects/ElecPrj_CCLight/src/extra	1	vim	:vim cclight.dtsi
+pane	CCLight development	5	:DTS	0	: 	2	:/shared/Projects/ElecPrj_CCLight/src	0	zsh	:
+pane	CCLight development	6	:Random	0	: 	1	:/shared/Projects/ElecPrj_CCLight	1	zsh	:
+pane	ElecLib_src	1	:Build	0	:-	1	:/home/versloot	1	zsh	:
+pane	ElecLib_src	2	:Source	1	:*	1	:/shared/Projects/QuTech_AWGmodule/src/ElecLib_Src	1	zsh	:
+pane	Linux development	1	:ElecLib_Linux	0	: 	1	:/shared/Projects/ElecLib_Linux	0	vim	:vim common.mak
+pane	Linux development	1	:ElecLib_Linux	0	: 	2	:/build_yocto_poky_tmp/work-shared/arria5/kernel-source/Documentation/devicetree/bindings/net	1	zsh	:
+pane	Linux development	2	:QWG	0	: 	1	:/shared/Projects/QuTech_AWGmodule/src/extra	1	vim	:vim qwg.dtsi
+pane	Linux development	3	:Kernel dtsi	0	:-	1	:/build_yocto_poky_tmp/work-shared/arria5/kernel-source/arch/arm/boot/dts	1	vim	:vim socfpga.dtsi
+pane	Linux development	3	:Kernel dtsi	0	:-	2	:/build_yocto_poky_tmp/work-shared/arria5/kernel-source/drivers/rtc	0	vim	:vim rtc-isl12022.c
+pane	Linux development	4	:Elec uboot	0	: 	1	:/shared/Projects/ElecPrj_DDM/build/u-boot/uboot-socfpga	1	vim	:vim board/altera/socfpga/socfpga_common.c
+pane	Linux development	4	:Elec uboot	0	: 	2	:/shared/Projects/ElecPrj_DDM/build/u-boot/uboot-socfpga	0	vim	:vim drivers/i2c/designware_i2c.c
+pane	Linux development	4	:Elec uboot	0	: 	3	:/shared/Projects/ElecPrj_DDM/build/u-boot/uboot-socfpga	0	zsh	:
+pane	Linux development	5	:Build and move uboot	1	:*	1	:/shared/Projects/ElecPrj_DDM/src	1	zsh	:
+pane	Linux development	5	:Build and move uboot	1	:*	2	:/shared/Projects/ElecPrj_DDM/build/u-boot/uboot-socfpga	0	zsh	:
+pane	Linux development	6	:Build enclustra	0	:#	1	:/shared/Projects/EnclustraBuildEnvironment/bsp-altera/sources/altera-uboot	1	vim	:vim /shared/Projects/EnclustraBuildEnvironment/bsp-altera/sources/altera-uboot/board/enclustra/mercury/socfpga.c
+pane	Linux development	6	:Build enclustra	0	:#	2	:/shared/Projects/EnclustraBuildEnvironment/bsp-altera/sources/altera-uboot	0	vim	:vim include/configs/socfpga_common.h
+pane	Linux development	6	:Build enclustra	0	:#	3	:/shared/Projects/EnclustraBuildEnvironment/bsp-altera/out_20171123164658_Mercury_SA2_Mercury_PE1_MMC_uboot_only	0	zsh	:
+pane	Linux development	7	:Random	0	: 	1	:/shared/Projects/SDCardImages	1	zsh	:
+pane	QWG development	1	:Application	0	:#	1	:/home/versloot	1	zsh	:
+pane	QWG development	2	:Build	0	:-	1	:/home/versloot	1	zsh	:
+pane	QWG development	2	:Build	0	:-	2	:/home/versloot	0	zsh	:
+pane	QWG development	3	:Source	1	:*	1	:/shared/Projects/QuTech_AWGmodule/src/arm/qwg	1	vim	:vim ClockControl.cpp
+pane	QWG development	4	:Git	0	: 	1	:/shared/Projects/QuTech_AWGmodule/src/ElecLib_Src	1	zsh	:
+pane	QWG development	5	:Kernel module	0	: 	1	:/shared/Projects/QuTech_AWGmodule/src/arm/kernel	1	vim	:vim wavEng.c
+pane	System status & random	1	:htop	0	:#	1	:/home/versloot	1	htop	:htop
+pane	System status & random	2	:Copy SD cart	1	:*	1	:/shared/Projects/SDCardImages	1	sudo	:sudo dd if=CCLight_kernel_4.1.22_2017_11_22.bin of=/dev/sdb bs=1M
+pane	System status & random	3	:Vim rc	0	:-	1	:/home/versloot	1	vim	:vim .vimrc
+pane	System status & random	3	:Vim rc	0	:-	2	:/home/versloot	0	zsh	:
+pane	System status & random	4	:zshrc	0	: 	1	:/home/versloot/Downloads	1	vim	:vim /home/versloot/.zshrc
+pane	System status & random	5	:Random	0	:#	1	:/shared/Projects	1	watch	:watch -n5 sudo kill -USR1 $(pgrep ^dd)
+window	CCLight development	1	0	:-	b2df,271x70,0,0,2
+window	CCLight development	2	1	:*	b2e0,271x70,0,0,3
+window	CCLight development	3	0	: 	d0e1,271x68,0,0,4
+window	CCLight development	4	0	: 	d0e2,271x68,0,0,5
+window	CCLight development	5	0	: 	ca45,271x70,0,0{135x70,0,0,6,135x70,136,0,52}
+window	CCLight development	6	0	: 	d0e5,271x68,0,0,8
+window	ElecLib_src	1	0	:-	e8a2,271x68,0,0,42
+window	ElecLib_src	2	1	:*	d9a4,271x70,0,0,44
+window	Linux development	1	0	: 	4a45,271x70,0,0{135x70,0,0,9,135x70,136,0,10}
+window	Linux development	2	0	: 	59a0,271x70,0,0,11
+window	Linux development	3	0	:-	86c2,271x70,0,0{135x70,0,0,12,135x70,136,0,13}
+window	Linux development	4	0	: 	e73b,271x70,0,0{83x70,0,0,14,93x70,84,0,60,93x70,178,0,62}
+window	Linux development	5	1	:*	c6c6,271x70,0,0{135x70,0,0,17,135x70,136,0,64}
+window	Linux development	6	0	:#	fd2c,271x70,0,0{85x70,0,0,19,92x70,86,0,56,92x70,179,0,61}
+window	Linux development	7	0	: 	d99f,271x70,0,0,20
+window	QWG development	1	0	:#	e8a0,271x68,0,0,21
+window	QWG development	2	0	:-	86c5,271x70,0,0{135x70,0,0,22,135x70,136,0,47}
+window	QWG development	3	1	:*	d9a2,271x70,0,0,23
+window	QWG development	4	0	: 	e8c3,262x68,0,0,24
+window	QWG development	5	0	: 	e8a5,271x68,0,0,26
+window	System status & random	1	0	:#	e8a7,271x68,0,0,28
+window	System status & random	2	1	:*	d9a8,271x70,0,0,29
+window	System status & random	3	0	:-	82a9,271x70,0,0{134x70,0,0,30,136x70,135,0,31}
+window	System status & random	4	0	: 	68a2,271x68,0,0,32
+window	System status & random	5	0	:#	59a3,271x70,0,0,33
+state	QWG development	System status & random

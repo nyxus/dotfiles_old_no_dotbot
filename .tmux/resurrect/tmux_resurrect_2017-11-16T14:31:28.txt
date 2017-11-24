@@ -1,0 +1,57 @@
+pane	5	1	:Enclustra	1	:*	1	:/shared/Projects/EnclustraBuildEnvironment/bsp-altera/out_20171114134907_Mercury_SA2_Mercury_PE1_MMC	1	zsh	:
+pane	CCLight development	1	:Application	0	: 	1	:/home/versloot	1	zsh	:
+pane	CCLight development	2	:Build	0	:#	1	:/home/versloot	1	zsh	:
+pane	CCLight development	3	:Source	0	: 	1	:/shared/Projects/ElecPrj_CCLight/src/arm/cclight	1	vim	:vim ccl.cpp
+pane	CCLight development	4	:Git	0	:-	1	:/shared/Projects/ElecPrj_CCLight/src/ElecLib_Src	1	zsh	:
+pane	CCLight development	5	:Kernel module	1	:*	1	:/shared/Projects/ElecPrj_CCLight/src/arm/kernel	1	vim	:vim Makefile
+pane	CCLight development	5	:Kernel module	1	:*	2	:/shared/Projects/ElecPrj_CCLight/src/arm/kernel	0	zsh	:
+pane	Linux development	1	:ElecLib_Linux	1	:*	1	:/shared/Projects/ElecLib_Linux	1	zsh	:
+pane	Linux development	1	:ElecLib_Linux	1	:*	2	:/build_yocto_poky_tmp/work-shared/arria5/kernel-source/Documentation/devicetree/bindings/net	0	zsh	:
+pane	Linux development	2	:QWG	0	: 	1	:/shared/Projects/QuTech_AWGmodule/src/extra	1	vim	:vim qwg.dtsi
+pane	Linux development	3	:Kernel	0	: 	1	:/build_yocto_poky_tmp/work-shared/arria5/kernel-source/arch/arm/boot/dts	1	vim	:vim socfpga.dtsi
+pane	Linux development	3	:Kernel	0	: 	2	:/build_yocto_poky_tmp/work-shared/arria5/kernel-source/drivers/rtc	0	vim	:vim rtc-isl12022.c
+pane	Linux development	4	:CCLight	0	:-	1	:/shared/Projects/ElecPrj_CCLight/src	1	zsh	:
+pane	Linux development	4	:CCLight	0	:-	2	:/shared/Projects/ElecPrj_CCLight/src	0	zsh	:
+pane	Linux development	4	:CCLight	0	:-	3	:/shared/Projects/ElecPrj_CCLight	0	zsh	:
+pane	Linux development	5	:SD management	0	: 	1	:/mnt	1	zsh	:
+pane	Linux development	5	:SD management	0	: 	2	:/shared/Projects/SDCardImages/CClight_boot_partitions	0	zsh	:
+pane	Linux development	6	:Build enclustra	0	: 	1	:/shared/Projects/EnclustraBuildEnvironment/bsp-altera/out_20171114134907_Mercury_SA2_Mercury_PE1_MMC	1	vim	:vim devicetree.dts
+pane	Linux development	7	:Random	0	: 	1	:/shared/Projects/ElecPrj_CCLight/src/extra	1	zsh	:
+pane	QWG development	1	:Application	0	: 	1	:/home/versloot	0	ssh	:ssh QWG2
+pane	QWG development	1	:Application	0	: 	2	:/home/versloot	1	ssh	:ssh QWG2
+pane	QWG development	2	:Build	0	: 	1	:/home/versloot	1	zsh	:
+pane	QWG development	3	:Source	0	:-	1	:/shared/Projects/QuTech_AWGmodule/src/arm/qwg	1	vim	:vim WaveEngine.cpp
+pane	QWG development	4	:Git	0	: 	1	:/shared/Projects/QuTech_AWGmodule/src/arm/qwg	1	zsh	:
+pane	QWG development	4	:Git	0	: 	2	:/shared/Projects/QuTech_AWGmodule/src/arm/qwg	0	zsh	:
+pane	QWG development	5	:Kernel module	1	:*	1	:/shared/Projects/QuTech_AWGmodule/src/arm/kernel	1	vim	:vim Makefile
+pane	QWG development	5	:Kernel module	1	:*	2	:/shared/Projects/QuTech_AWGmodule/src/arm/kernel	0	zsh	:
+pane	System status & random	1	:htop	0	:#-	1	:/home/versloot	1	htop	:htop
+pane	System status & random	2	:Copy SD cart	0	: 	1	:/shared/Projects/SDCardImages	1	zsh	:
+pane	System status & random	3	:Vim rc	0	: 	1	:/home/versloot	1	vim	:vim .vimrc
+pane	System status & random	3	:Vim rc	0	: 	2	:/home/versloot	0	zsh	:
+pane	System status & random	4	:zshrc	0	: 	1	:/home/versloot/Downloads	1	vim	:vim /home/versloot/.zshrc
+pane	System status & random	5	:Random	1	:*	1	:/home/versloot	1	zsh	:
+window	5	1	1	:*	5fa2,271x73,0,0,32
+window	CCLight development	1	0	: 	b2df,271x70,0,0,2
+window	CCLight development	2	0	:#	61a5,271x74,0,0,35
+window	CCLight development	3	0	: 	61a8,271x74,0,0,38
+window	CCLight development	4	0	:-	59a9,271x70,0,0,39
+window	CCLight development	5	1	:*	0bc5,271x74,0,0{135x74,0,0,41,135x74,136,0,45}
+window	Linux development	1	1	:*	1345,271x74,0,0{135x74,0,0,3,135x74,136,0,23}
+window	Linux development	2	0	: 	b2e1,271x70,0,0,4
+window	Linux development	3	0	: 	4a45,271x70,0,0{135x70,0,0,5,135x70,136,0,33}
+window	Linux development	4	0	:-	4b02,271x74,0,0{133x74,0,0,6,137x74,134,0[137x44,134,0,25,137x29,134,45,34]}
+window	Linux development	5	0	: 	81d4,271x70,0,0{133x70,0,0,7,137x70,134,0,20}
+window	Linux development	6	0	: 	d9a5,271x70,0,0,26
+window	Linux development	7	0	: 	59a1,271x70,0,0,31
+window	QWG development	1	0	: 	1109,271x73,0,0{135x73,0,0,8,135x73,136,0,36}
+window	QWG development	2	0	: 	b2e6,271x70,0,0,9
+window	QWG development	3	0	:-	5f9f,271x73,0,0,10
+window	QWG development	4	0	: 	8ef1,271x70,0,0{137x70,0,0,11,133x70,138,0,12}
+window	QWG development	5	1	:*	2a84,271x73,0,0{135x73,0,0,13,135x73,136,0,43}
+window	System status & random	1	0	:#-	5fa3,271x73,0,0,14
+window	System status & random	2	0	: 	61a4,271x74,0,0,15
+window	System status & random	3	0	: 	666f,271x73,0,0{134x73,0,0,16,136x73,135,0,37}
+window	System status & random	4	0	: 	61a6,271x74,0,0,17
+window	System status & random	5	1	:*	dfa0,271x73,0,0,40
+state	CCLight development	QWG development

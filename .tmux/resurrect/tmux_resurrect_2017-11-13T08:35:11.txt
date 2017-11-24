@@ -1,0 +1,33 @@
+pane	CCLight development	1	:zsh	1	:*	1	:/home/versloot	1	zsh	:
+pane	Linux development	1	:ElecLib_Linux	0	:-	1	:/shared/Projects/ElecLib_Linux	1	vim	:vim common.mak
+pane	Linux development	2	:QWG	0	: 	1	:/shared/Projects/QuTech_AWGmodule/src	1	vim	:vim Makefile
+pane	Linux development	3	:DDM	0	: 	1	:/shared/Projects/ElecPrj_DDM/build/u-boot	1	zsh	:
+pane	Linux development	4	:CCLight	0	: 	1	:/shared/Projects/ElecPrj_DDM/src	0	vim	:vim Makefile
+pane	Linux development	4	:CCLight	0	: 	2	:/shared/Projects/ElecPrj_DDM/src	1	zsh	:
+pane	Linux development	5	:Random	1	:*	1	:/shared/Projects/SDCardImages/CClight_boot_partitions	1	zsh	:
+pane	QWG development	1	:Application	0	:-	1	:/home/versloot	1	zsh	:
+pane	QWG development	2	:Build	0	:#	1	:/home/versloot	1	zsh	:
+pane	QWG development	3	:Source	1	:*	1	:/shared/Projects/QuTech_AWGmodule/src/arm/qwg	1	vim	:vim WaveEngine.cpp
+pane	QWG development	4	:Git	0	:#	1	:/shared/Projects/QuTech_AWGmodule/src/arm/qwg	1	zsh	:
+pane	QWG development	4	:Git	0	:#	2	:/shared/Projects/QuTech_AWGmodule/src/arm/qwg	0	zsh	:
+pane	QWG development	5	:Search source	0	: 	1	:/shared/Projects/QuTech_AWGmodule/src/arm/qwg	1	zsh	:
+pane	System status & random	1	:htop	0	:#	1	:/home/versloot	1	htop	:htop
+pane	System status & random	2	:Copy SD cart	0	:#	1	:/shared/Projects/SDCardImages	1	zsh	:
+pane	System status & random	3	:watch	0	:-	1	:/home/versloot	1	vim	:vim .zshrc
+pane	System status & random	4	:zsh	1	:*	1	:/home/versloot/Downloads	1	zsh	:
+window	CCLight development	1	1	:*	d0df,271x68,0,0,2
+window	Linux development	1	0	:-	d0e0,271x68,0,0,3
+window	Linux development	2	0	: 	d0e1,271x68,0,0,4
+window	Linux development	3	0	: 	d0e2,271x68,0,0,5
+window	Linux development	4	0	: 	3b2a,271x68,0,0{135x68,0,0,6,135x68,136,0,19}
+window	Linux development	5	1	:*	d0e4,271x68,0,0,7
+window	QWG development	1	0	:-	d0e5,271x68,0,0,8
+window	QWG development	2	0	:#	d0e6,271x68,0,0,9
+window	QWG development	3	1	:*	689f,271x68,0,0,10
+window	QWG development	4	0	:#	8852,271x68,0,0{137x68,0,0,11,133x68,138,0,12}
+window	QWG development	5	0	: 	68a2,271x68,0,0,13
+window	System status & random	1	0	:#	68a3,271x68,0,0,14
+window	System status & random	2	0	:#	68a4,271x68,0,0,15
+window	System status & random	3	0	:-	68a5,271x68,0,0,16
+window	System status & random	4	1	:*	68a6,271x68,0,0,17
+state	Linux development	QWG development

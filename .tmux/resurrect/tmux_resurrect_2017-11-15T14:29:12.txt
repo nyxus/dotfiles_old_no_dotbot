@@ -1,0 +1,42 @@
+pane	5	1	:Enclustra	1	:*	1	:/shared/Projects/EnclustraBuildEnvironment/bsp-altera/out_20171114134907_Mercury_SA2_Mercury_PE1_MMC	1	zsh	:
+pane	CCLight development	1	:zsh	1	:*	1	:/home/versloot	1	zsh	:
+pane	Linux development	1	:ElecLib_Linux	0	: 	1	:/shared/Projects/ElecLib_Linux	1	vim	:vim common.mak
+pane	Linux development	1	:ElecLib_Linux	0	: 	2	:/build_yocto_poky_tmp/work-shared/arria5/kernel-source/Documentation/devicetree/bindings/net	0	zsh	:
+pane	Linux development	2	:QWG	0	: 	1	:/shared/Projects/QuTech_AWGmodule/src/extra	1	vim	:vim qwg.dtsi
+pane	Linux development	3	:Kernel	0	: 	1	:/build_yocto_poky_tmp/work-shared/arria5/kernel-source/arch/arm/boot/dts	1	vim	:vim socfpga.dtsi
+pane	Linux development	3	:Kernel	0	: 	2	:/build_yocto_poky_tmp/work-shared/arria5/kernel-source/Documentation/devicetree/bindings/phy	0	zsh	:
+pane	Linux development	4	:CCLight	1	:*	1	:/shared/Projects/ElecPrj_CCLight/src/extra	0	vim	:vim cclight.dtsi
+pane	Linux development	4	:CCLight	1	:*	2	:/shared/Projects/ElecPrj_CCLight/src/extra	1	vim	:vim cclight_from_QWG.dtsi
+pane	Linux development	5	:SD management	0	:-	1	:/mnt	1	zsh	:
+pane	Linux development	5	:SD management	0	:-	2	:/shared/Projects/SDCardImages/CClight_boot_partitions	0	zsh	:
+pane	Linux development	6	:Build enclustra	0	: 	1	:/shared/Projects/EnclustraBuildEnvironment/bsp-altera/out_20171114134907_Mercury_SA2_Mercury_PE1_MMC	1	zsh	:
+pane	Linux development	7	:Random	0	: 	1	:/shared/Projects/ElecPrj_CCLight/src/extra	1	zsh	:
+pane	QWG development	1	:Application	0	: 	1	:/home/versloot	1	zsh	:
+pane	QWG development	2	:Build	0	:#	1	:/home/versloot	1	zsh	:
+pane	QWG development	3	:Source	1	:*	1	:/shared/Projects/QuTech_AWGmodule/src/arm/qwg	1	vim	:vim WaveEngine.cpp
+pane	QWG development	4	:Git	0	:-	1	:/shared/Projects/QuTech_AWGmodule/src/arm/qwg	1	zsh	:
+pane	QWG development	4	:Git	0	:-	2	:/shared/Projects/QuTech_AWGmodule/src/arm/qwg	0	zsh	:
+pane	QWG development	5	:Search source	0	: 	1	:/shared/Projects/QuTech_AWGmodule/src/arm/qwg	1	zsh	:
+pane	System status & random	1	:htop	0	:#	1	:/home/versloot	1	htop	:htop
+pane	System status & random	2	:Copy SD cart	0	:#	1	:/shared/Projects/SDCardImages	1	zsh	:
+pane	System status & random	3	:Vim rc	1	:*	1	:/home/versloot	1	vim	:vim .vimrc
+pane	System status & random	4	:zshrc	0	:-	1	:/home/versloot/Downloads	1	vim	:vim /home/versloot/.zshrc
+window	5	1	1	:*	68c2,262x68,0,0,32
+window	CCLight development	1	1	:*	b2df,271x70,0,0,2
+window	Linux development	1	0	: 	0a44,271x70,0,0{135x70,0,0,3,135x70,136,0,23}
+window	Linux development	2	0	: 	b2e1,271x70,0,0,4
+window	Linux development	3	0	: 	4a45,271x70,0,0{135x70,0,0,5,135x70,136,0,33}
+window	Linux development	4	1	:*	8a46,271x70,0,0{135x70,0,0,6,135x70,136,0,25}
+window	Linux development	5	0	:-	81d4,271x70,0,0{133x70,0,0,7,137x70,134,0,20}
+window	Linux development	6	0	: 	d9a5,271x70,0,0,26
+window	Linux development	7	0	: 	59a1,271x70,0,0,31
+window	QWG development	1	0	: 	c2e5,271x74,0,0,8
+window	QWG development	2	0	:#	d0e6,271x68,0,0,9
+window	QWG development	3	1	:*	599f,271x70,0,0,10
+window	QWG development	4	0	:-	13f2,271x74,0,0{137x74,0,0,11,133x74,138,0,12}
+window	QWG development	5	0	: 	68a2,271x68,0,0,13
+window	System status & random	1	0	:#	68a3,271x68,0,0,14
+window	System status & random	2	0	:#	68a4,271x68,0,0,15
+window	System status & random	3	1	:*	59a5,271x70,0,0,16
+window	System status & random	4	0	:-	59a6,271x70,0,0,17
+state	Linux development	Linux development

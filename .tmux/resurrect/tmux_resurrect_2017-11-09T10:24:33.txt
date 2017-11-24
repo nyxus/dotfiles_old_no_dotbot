@@ -1,0 +1,20 @@
+pane	CCLight development	1	:zsh	1	:*	1	:/home/versloot	1	zsh	:
+pane	QWG development	1	:Application	0	:#	1	:/home/versloot	1	ssh	:ssh QWG2
+pane	QWG development	2	:Build	0	:#	1	:/home/versloot	1	ssh	:ssh QWG2
+pane	QWG development	3	:Source	0	:-	1	:/shared/Projects/QuTech_AWGmodule/src/arm/qwg	1	vim	:vim SysControl.cpp
+pane	QWG development	4	:Git	1	:*	1	:/shared/Projects/QuTech_AWGmodule/src/arm/qwg	1	zsh	:
+pane	QWG development	4	:Git	1	:*	2	:/shared/Projects/QuTech_AWGmodule/src/arm/qwg	0	zsh	:
+pane	QWG development	5	:Search source	0	: 	1	:/shared/Projects/QuTech_AWGmodule/src/arm/qwg	1	zsh	:
+pane	System status & random	1	:htop	0	:#	1	:/home/versloot	1	htop	:htop
+pane	System status & random	2	:Copy SD cart	1	:*	1	:/shared/Projects/SDCardImages	1	zsh	:
+pane	System status & random	3	:watch	0	:#-	1	:/home/versloot	1	watch	:watch -n5 sudo kill -USR1 $(pgrep ^dd)
+window	CCLight development	1	1	:*	68a0,271x68,0,0,11
+window	QWG development	1	0	:#	d0df,271x68,0,0,2
+window	QWG development	2	0	:#	d0e0,271x68,0,0,3
+window	QWG development	3	0	:-	d0e1,271x68,0,0,4
+window	QWG development	4	1	:*	0680,271x68,0,0{137x68,0,0,5,133x68,138,0,6}
+window	QWG development	5	0	: 	d0e4,271x68,0,0,7
+window	System status & random	1	0	:#	d0e5,271x68,0,0,8
+window	System status & random	2	1	:*	d0e6,271x68,0,0,9
+window	System status & random	3	0	:#-	689f,271x68,0,0,10
+state	QWG development	System status & random
